@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(cors())
 
 const port = process.env.PORT || 9000
-const connection_url = "mongodb+srv://xxxx:xxxx@cluster0.ie4h1hd.mongodb.net/?retryWrites=true&w=majority" // change to have personal username and password
+const connection_url = "mongodb+srv://xxxx:xxxx@xxxxx" // change to have personal username and password
 
 const pusher = new Pusher({
     appId: "xxxxx",
