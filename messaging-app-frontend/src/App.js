@@ -28,8 +28,8 @@ function App() {
 
   useEffect(() => {
 
-    var pusher = new Pusher('ab83bfa4d0698bae47f2', {
-      cluster: 'us3'
+    var pusher = new Pusher('xxxxx', {
+      cluster: 'xxxx'
     });
 
     var channel = pusher.subscribe('messages');
